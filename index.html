@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/main.css">
+    <script defer src="./build/demo.js"></script>
+    <title>Estacionamento</title>
+</head>
+<body>
+    <div class="grid-container">
+     <header>
+     <div class="brand">
+         <a href="http://www.detran.ma.gov.br/">
+             <img src="./imgs/header.png" alt="">
+         </a>
+     </div>
+     <div class="painel-direito">
+         <ul class="social-icons">
+             <li><img src="./imgs/mail.png" alt=""></li>
+             <li><img src="./imgs/face.png" alt=""></li>
+             <li><img src="./imgs/instagran.png" alt=""></li>
+             <li><img src="./imgs/youtube.png" alt=""></li>
+             <li><img src="./imgs/twitter.png" alt=""></li>
+         </ul>
+         <div class="barra-busca">
+             <input type="text" placeholder="Buscar no site">
+             <i class="fa fa-search" aria-hidden="true"></i>
+         </div>
+     </div>
+     </header>
+    <main>
+    <div class="painel-comunicados">
+        <div class="comunicado"><img src="./imgs/btnComunicado.png" alt=""></div>
+        <button class="avisos-btn">avisos</button>
+    </div>
+    <div class="menu">
+        <ul>
+            <button>habilitação</button>
+            <button>habilitação</button>
+            <button>habilitação</button>
+            <button>habilitação</button>
+            <button>habilitação</button>
+            <button>habilitação</button>
+        </ul>
+    </div>
+
+    <div class="agendamento-servicos">
+        <h3 class="servicos">Serviços em Destaques</h3>
+        <div class="img-box-o">
+          <img src="./imgs/Agendamento_Novo.jpg" alt="">
+          <img src="./imgs/banner-crlve-novo-2.jpg" alt="">
+        </div>
+       
+    </div>
+
+     <input type="text" id="nome" placeholder="Digite o nome do veiculo" autocomplete="off">
+     <input type="text" id="placa" placeholder="Digite a placa do veiculo" autocomplete="off">
+     <button id="cadastrar">cadastrar</button>
+
+
+     <table>
+         <h2 class="patio-titulo">PATIO ROTATIVO</h2>
+         <thead>
+            
+             <tr>
+                 <th>Nome</th>
+                 <th>Placa</th>
+                 <th>Entrada</th>
+                 <th>Ações</th>
+             </tr>
+         </thead>
+         <tbody id="patio"></tbody>
+     </table>
+    </main>
+    <aside>
+        <ul>
+          
+          <li><a href="#"> <img src="./imgs/RastreiodeDocumento.png" alt=""> </a></li>
+          <li><a href="#"> <img src="./imgs/postosAvancados.png" alt=""> </a></li>
+          <li><a href="#"> <img src="./imgs/cronogramadarenovacaodeCNHs.png" alt=""> </a></li>
+          <li><a href="#"> <img src="./imgs/ResolucaodeAlunosDetrancomoPovo.jpg" alt=""> </a></li>
+        </ul>
+    </aside>
+    
+   <footer>
+   <div class="uteis row">
+       <div class="col">
+        <h3>INSTITUCIONAL</h3>   
+        <ul>
+            <li>Detran Maranhão</li>
+            <li>Diretoria Geral</li>
+            <li>Legislação</li>
+            <li>Termo de Classificação <br> de informação - TCI</li>
+        </ul>
+       </div>
+       <!--  -->
+       <div class="col">
+        <h3>INFORMAÇÕES</h3>   
+        <ul>
+            <li>Habilitação</li>
+            <li>Veículos</li>
+            <li>Credenciais</li>
+            <li>Educação para Trânsito </li>
+            <li>Ciretrans</li>
+        </ul>
+       </div>
+       <!--  -->
+       <div class="col">
+        <h3>EDITAIS</h3>   
+        <ul>
+            <li>Concursos</li>
+            <li>Licitações</li>
+            <li>Leilões</li>
+            <li>Publicações</li>
+            <li>Portarias</li>
+        </ul>
+       </div>
+       <!--  -->
+       <div class="col">
+        <h3>CONTATOS</h3>   
+        <ul>
+            <li>Postos Avançados</li>
+            <li>Fale Conosco</li>
+            <li>Links</li>
+            <li>Ouvidoria</li>
+        </ul>
+       </div>
+       <!--  -->
+       <div class="col">
+        <h3>CONSULTAS</h3>   
+        <ul>
+            <li>Consulte seu CEP</li>
+            <li>Consulte seu CPF</li>
+            <li>Consulte seu CNPJ</li>
+            <li>Consulta Processos</li>
+            <li>Taxas</li>
+          
+        </ul>
+       </div>
+   </div>
+   <div class="info">
+       <h4>Detran Ma - Clone  Digital Innovation One - DIO</h4>
+       <p>
+           <a href="https://github.com/ellsonmendesyt/Detran-Interface">Veja o codigo no github</a>
+       </p>
+       <p><a href="https://www.linkedin.com/in/elsonmendesyt" target="_blank">Encontre-me no Linkedin</a></p>
+       <p><a href="https://web.dio.me/users/elsonmendesoficial?tab=achievements" target="_blank">Digital Inovation One - DIO</a></p>
+       <button class="hire-btn">Contrate-me !</button>
+   </div>
+   </footer>
+    </div>
+</body>
+</html>
